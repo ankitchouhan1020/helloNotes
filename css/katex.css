@@ -16,3 +16,8 @@
 .katex-html {
   overflow-y: hidden;
 }
+
+pre{
+white-space: pre-wrap; 
+margin:auto;padding: 10px
+}
