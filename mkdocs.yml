@@ -1,11 +1,11 @@
 # Project information
 site_name: 'Hello Notes'
-site_description: 'Compilation of Machine Learning Notes'
+site_description: 'Compilation of Self Notes'
 site_author: 'Ankit Chouhan'
-site_url: 'https://ankitchouhan1020.github.io'
+site_url: 'https://ankitchouhan1020.github.io/helloNotes'
 
 # Repository
-repo_name: 'ankitchouhan1020/helloML'
+repo_name: 'ankitchouhan1020/helloNotes'
 repo_url: 'https://github.com/ankitchouhan1020/helloNotes'
 
 # Copyright
@@ -37,7 +37,9 @@ extra:
 extra_css:
   - 'css/katex.css'
   - 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css'
-
+  - 'css/highlight-fix.css'
+  - 'css/highlight-custom.css'
+  
 extra_javascript:
   - 'js/katex.js'
   - 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js'
