@@ -1,3 +1,3 @@
-# A Guide to Machine Learning Algorithms
+# Some shortcuts to learn
 
 _"Many a little makes a mickle."_

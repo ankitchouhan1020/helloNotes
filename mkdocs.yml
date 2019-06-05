@@ -1,12 +1,12 @@
 # Project information
-site_name: 'Hello ML'
+site_name: 'Hello Notes'
 site_description: 'Compilation of Machine Learning Notes'
 site_author: 'Ankit Chouhan'
 site_url: 'https://ankitchouhan1020.github.io'
 
 # Repository
 repo_name: 'ankitchouhan1020/helloML'
-repo_url: 'https://github.com/ankitchouhan1020/helloML'
+repo_url: 'https://github.com/ankitchouhan1020/helloNotes'
 
 # Copyright
 copyright: 'Built by <a href="http://github.com/ankitchouhan1020">Ankit Chouhan</a> &copy;2019'
