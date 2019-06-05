@@ -1,0 +1,187 @@
+# Project information
+site_name: 'Hello ML'
+site_description: 'Compilation of Machine Learning Notes'
+site_author: 'Ankit Chouhan'
+site_url: 'https://ankitchouhan1020.github.io'
+
+# Repository
+repo_name: 'ankitchouhan1020/helloML'
+repo_url: 'https://github.com/ankitchouhan1020/helloML'
+
+# Copyright
+copyright: 'Built by <a href="http://github.com/ankitchouhan1020">Ankit Chouhan</a> &copy;2019'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  custom_dir: 'custom/'
+  favicon: 'assets/favicon.png'
+  palette:
+    primary: 'Teal'
+    accent: 'Blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'import_contacts'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/ankitchouhan1020'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/ankitchouhan1020'
+
+extra_css:
+  - 'css/katex.css'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css'
+
+extra_javascript:
+  - 'js/katex.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js'
+
+# Extensions
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: false
+  - pymdownx.superfences
+
+nav:
+  - Preface: index.md
+  - Color: color.md
+  - Leetcode Premium:
+    - Reverse Words in a String II : LeetCodeLocked/c1.md
+    - Factor Combinations: LeetCodeLocked/c1.1.md
+    - Two Sum III – Data structure design: LeetCodeLocked/c1.2.md
+    - Read N Characters Given Read4 I, II: LeetCodeLocked/c1.3.md
+    - Shortest Word Distance I, II, III: LeetCodeLocked/c1.4.md
+    - Strobogrammatic Number I, II, III: LeetCodeLocked/c1.5.md
+    - Meeting Rooms I, II: LeetCodeLocked/c1.6.md
+    - Longest Substring with At Most Two Distinct Characters: LeetCodeLocked/c1.7.md
+    - Missing Ranges: LeetCodeLocked/c1.8.md
+    - One Edit Distance: LeetCodeLocked/c1.9.md
+    - Flatten 2D Vector: LeetCodeLocked/c1.10.md
+    - Group Shifted Strings: LeetCodeLocked/c1.11.md
+    - Count Univalue Subtrees: LeetCodeLocked/c1.12.md
+    - Binary Tree Upside Down: LeetCodeLocked/c1.13.md
+    - Verify preorder sequence of Binary Search Tree: LeetCodeLocked/c1.14.md
+    - Paint House I, II: LeetCodeLocked/c1.15.md
+    - 3Sum Smaller: LeetCodeLocked/c1.16.md
+    - Graph Valid Tree: LeetCodeLocked/c1.17.md
+    - Palindrome Permutation I, II: LeetCodeLocked/c1.18.md
+    - Alien Dictonary: LeetCodeLocked/c1.19.md
+    - losest Binary Search Tree Value I, II: LeetCodeLocked/c1.20.md
+    - Encode and Decode Strings: LeetCodeLocked/c1.21.md
+    - Find the Celebrity: LeetCodeLocked/c1.22.md
+    - Wiggle Sort: LeetCodeLocked/c1.42.md
+    - Zigzag Iterator: LeetCodeLocked/c1.43.md
+    - Paint Fence: LeetCodeLocked/c1.23.md
+    - Walls and Gates: LeetCodeLocked/c1.24.md
+    - Inorder Successor: LeetCodeLocked/c1.25.md
+    - Unique Word Abbreviation: LeetCodeLocked/c1.26.md
+    - Word Pattern II: LeetCodeLocked/c1.27.md
+    - Flip Game I, II: LeetCodeLocked/c1.28.md
+    - Best Meeting Point: LeetCodeLocked/c1.29.md
+    - Binary Tree Longest Consecutive Sequence: LeetCodeLocked/c1.30.md
+    - Smallest Rectangle Enclosing Black Pixels: LeetCodeLocked/c1.31.md
+    - Number of Islands II: LeetCodeLocked/c1.32.md
+    - Range Sum Query 2D - Mutable: LeetCodeLocked/c1.33.md
+    - Sparse Matrix Multiplication: LeetCodeLocked/c1.34.md
+    - Binary Tree Vertical Order Traversal: LeetCodeLocked/c1.35.md
+    - Shortest Distance from All Buildings: LeetCodeLocked/c1.36.md
+    - Generalized Abbreviation: LeetCodeLocked/c1.37.md
+    - Number of Connected Components in an Undirected Graph: LeetCodeLocked/c1.38.md
+    - Maximum Size Subarray Sum Equals K: LeetCodeLocked/c1.40.md
+    - Largest BST Subtree: LeetCodeLocked/c1.41.md
+  - Leetcode Solved:  
+    - 0001-two-sum: LeetcodeSolved/0001-two-sum.md
+    - 0002-add-two-numbers: LeetcodeSolved/0002-add-two-numbers.md
+    - 0003-longest-substring-without-repeating-characters: LeetcodeSolved/0003-longest-substring-without-repeating-characters.md
+    - 0015-3sum: LeetcodeSolved/0015-3sum.md
+    - 0017-letter-combinations-of-a-phone-number: LeetcodeSolved/0017-letter-combinations-of-a-phone-number.md
+    - 0019-remove-nth-node-from-end-of-list: LeetcodeSolved/0019-remove-nth-node-from-end-of-list.md
+    - 0023-merge-k-sorted-lists: LeetcodeSolved/0023-merge-k-sorted-lists.md
+    - 0024-swap-nodes-in-pairs: LeetcodeSolved/0024-swap-nodes-in-pairs.md
+    - 0031-next-permutation: LeetcodeSolved/0031-next-permutation.md
+    - 0039-combination-sum: LeetcodeSolved/0039-combination-sum.md
+    - 0040-combination-sum-ii: LeetcodeSolved/0040-combination-sum-ii.md
+    - 0042-trapping-rain-water: LeetcodeSolved/0042-trapping-rain-water.md
+    - 0047-permutations-ii: LeetcodeSolved/0047-permutations-ii.md
+    - 0048-rotate-image: LeetcodeSolved/0048-rotate-image.md
+    - 0051-n-queens: LeetcodeSolved/0051-n-queens.md
+    - 0054-spiral-matrix: LeetcodeSolved/0054-spiral-matrix.md
+    - 0055-jump-game: LeetcodeSolved/0055-jump-game.md
+    - 0056-merge-intervals: LeetcodeSolved/0056-merge-intervals.md
+    - 0062-unique-paths: LeetcodeSolved/0062-unique-paths.md
+    - 0073-set-matrix-zeroes: LeetcodeSolved/0073-set-matrix-zeroes.md
+    - 0075-sort-colors: LeetcodeSolved/0075-sort-colors.md
+    - 0076-minimum-window-substring: LeetcodeSolved/0076-minimum-window-substring.md
+    - 0079-word-search: LeetcodeSolved/0079-word-search.md
+    - 0090-subsets-ii: LeetcodeSolved/0090-subsets-ii.md
+    - 0091-decode-ways: LeetcodeSolved/0091-decode-ways.md
+    - 0092-reverse-linked-list-ii: LeetcodeSolved/0092-reverse-linked-list-ii.md
+    - 0094-binary-tree-inorder-traversal: LeetcodeSolved/0094-binary-tree-inorder-traversal.md
+    - 0098-validate-binary-search-tree: LeetcodeSolved/0098-validate-binary-search-tree.md
+    - 0102-binary-tree-level-order-traversal: LeetcodeSolved/0102-binary-tree-level-order-traversal.md
+    - 0103-binary-tree-zigzag-level-order-traversal: LeetcodeSolved/0103-binary-tree-zigzag-level-order-traversal.md
+    - 0105-construct-binary-tree-from-preorder-and-inorder-traversal: LeetcodeSolved/0105-construct-binary-tree-from-preorder-and-inorder-traversal.md
+    - 0106-construct-binary-tree-from-inorder-and-postorder-traversal: LeetcodeSolved/0106-construct-binary-tree-from-inorder-and-postorder-traversal.md
+    - 0114-flatten-binary-tree-to-linked-list: LeetcodeSolved/0114-flatten-binary-tree-to-linked-list.md
+    - 0117-populating-next-right-pointers-in-each-node-ii: LeetcodeSolved/0117-populating-next-right-pointers-in-each-node-ii.md
+    - 0124-binary-tree-maximum-path-sum: LeetcodeSolved/0124-binary-tree-maximum-path-sum.md
+    - 0133-clone-graph: LeetcodeSolved/0133-clone-graph.md
+    - 0139-word-break: LeetcodeSolved/0139-word-break.md
+    - 0142-linked-list-cycle-ii: LeetcodeSolved/0142-linked-list-cycle-ii.md
+    - 0143-reorder-list: LeetcodeSolved/0143-reorder-list.md
+    - 0146-lru-cache: LeetcodeSolved/0146-lru-cache.md
+    - 0150-evaluate-reverse-polish-notation: LeetcodeSolved/0150-evaluate-reverse-polish-notation.md
+    - 0152-maximum-product-subarray: LeetcodeSolved/0152-maximum-product-subarray.md
+    - 0190-reverse-bits: LeetcodeSolved/0190-reverse-bits.md
+    - 0199-binary-tree-right-side-view: LeetcodeSolved/0199-binary-tree-right-side-view.md
+    - 0200-number-of-islands: LeetcodeSolved/0200-number-of-islands.md
+    - 0207-course-schedule: LeetcodeSolved/0207-course-schedule.md
+    - 0208-implement-trie-prefix-tree: LeetcodeSolved/0208-implement-trie-prefix-tree.md
+    - 0210-course-schedule-ii: LeetcodeSolved/0210-course-schedule-ii.md
+    - 0211-add-and-search-word-data-structure-design: LeetcodeSolved/0211-add-and-search-word-data-structure-design.md
+    - 0212-word-search-ii: LeetcodeSolved/0212-word-search-ii.md
+    - 0230-kth-smallest-element-in-a-bst: LeetcodeSolved/0230-kth-smallest-element-in-a-bst.md
+    - 0234-palindrome-linked-list: LeetcodeSolved/0234-palindrome-linked-list.md
+    - 0235-lowest-common-ancestor-of-a-binary-search-tree: LeetcodeSolved/0235-lowest-common-ancestor-of-a-binary-search-tree.md
+    - 0236-lowest-common-ancestor-of-a-binary-tree: LeetcodeSolved/0236-lowest-common-ancestor-of-a-binary-tree.md
+    - 0239-sliding-window-maximum: LeetcodeSolved/0239-sliding-window-maximum.md
+    - 0241-different-ways-to-add-parentheses: LeetcodeSolved/0241-different-ways-to-add-parentheses.md
+    - 0268-missing-number: LeetcodeSolved/0268-missing-number.md
+    - 0279-perfect-squares: LeetcodeSolved/0279-perfect-squares.md
+    - 0287-find-the-duplicate-number: LeetcodeSolved/0287-find-the-duplicate-number.md
+    - 0289-game-of-life: LeetcodeSolved/0289-game-of-life.md
+    - 0295-find-median-from-data-stream: LeetcodeSolved/0295-find-median-from-data-stream.md
+    - 0322-coin-change: LeetcodeSolved/0322-coin-change.md
+    - 0338-counting-bits: LeetcodeSolved/0338-counting-bits.md
+    - 0347-top-k-frequent-elements: LeetcodeSolved/0347-top-k-frequent-elements.md
+    - 0363-max-sum-of-rectangle-no-larger-than-k: LeetcodeSolved/0363-max-sum-of-rectangle-no-larger-than-k.md
+    - 0380-insert-delete-getrandom-o1: LeetcodeSolved/0380-insert-delete-getrandom-o1.md
+    - 0394-decode-string: LeetcodeSolved/0394-decode-string.md
+    - 0416-partition-equal-subset-sum: LeetcodeSolved/0416-partition-equal-subset-sum.md
+    - 0430-flatten-a-multilevel-doubly-linked-list: LeetcodeSolved/0430-flatten-a-multilevel-doubly-linked-list.md
+    - 0435-non-overlapping-intervals: LeetcodeSolved/0435-non-overlapping-intervals.md
+    - 0457-circular-array-loop: LeetcodeSolved/0457-circular-array-loop.md
+    - 0547-friend-circles: LeetcodeSolved/0547-friend-circles.md
+    - 0572-subtree-of-another-tree: LeetcodeSolved/0572-subtree-of-another-tree.md
+    - 0583-delete-operation-for-two-strings: LeetcodeSolved/0583-delete-operation-for-two-strings.md
+    - 0622-design-circular-queue: LeetcodeSolved/0622-design-circular-queue.md
+    - 0652-find-duplicate-subtrees: LeetcodeSolved/0652-find-duplicate-subtrees.md
+    - 0833-find-and-replace-in-string: LeetcodeSolved/0833-find-and-replace-in-string.md
+    - 0841-keys-and-rooms: LeetcodeSolved/0841-keys-and-rooms.md
+    - 0973-k-closest-points-to-origin: LeetcodeSolved/0973-k-closest-points-to-origin.md
+    - 1028-recover-a-tree-from-preorder-traversal: LeetcodeSolved/1028-recover-a-tree-from-preorder-traversal.md
+    - 1038-binary-search-tree-to-greater-sum-tree: LeetcodeSolved/1038-binary-search-tree-to-greater-sum-tree.md
+    - 1048-longest-string-chain: LeetcodeSolved/1048-longest-string-chain.md
+    - 1049-last-stone-weight-ii: LeetcodeSolved/1049-last-stone-weight-ii.md
+    - 1054-distant-barcodes: LeetcodeSolved/1054-distant-barcodes.md
+    - 1071-greatest-common-divisor-of-strings: LeetcodeSolved/1071-greatest-common-divisor-of-strings.md
+    - 1072-flip-columns-for-maximum-number-of-equal-rows: LeetcodeSolved/1072-flip-columns-for-maximum-number-of-equal-rows.md
