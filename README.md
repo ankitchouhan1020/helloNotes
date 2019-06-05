@@ -7,6 +7,6 @@
   <img src="https://img.shields.io/badge/Progress-132%20%2F%201070-lightgrey.svg" />
 </p>
 
-##Collection of Leetcode Problems and Solutions
+>Collection of Leetcode Problems and Solutions
 
 _"Many a little makes a mickle."_
